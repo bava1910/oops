@@ -1,0 +1,12 @@
+import java.util.*;
+public class sorting {
+public static void main(String[] args) {
+List<String> names = new ArrayList<>();
+names.add("Banana");
+names.add("Apple");
+names.add("Mango");
+names.add("Orange");
+Collections.sort(names, (a, b) -> a.compareTo(b));
+System.out.println("Sorted List: " + names);
+}
+}
